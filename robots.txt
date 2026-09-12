@@ -1,1 +1,22 @@
+User-agent: *
+Allow: /
 
+# Sitemaps
+Sitemap: https://sme-gov-ao.github.io/passaporte-_electronico/sitemap.xml
+
+# Bloquear áreas privadas (se houver)
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /*?*protocolo=*
+Disallow: /*?*bi=*
+
+# Crawl-delay opcional para Bing
+User-agent: Bingbot
+Crawl-delay: 1
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Host canónico
+Host: sme-gov-ao.github.io
